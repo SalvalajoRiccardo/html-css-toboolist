@@ -1,3 +1,17 @@
 body {
     background-color: rgba(197, 195, 195, 0.664);
 }
+
+.imglogo {
+    display: inline-block;
+    
+}
+
+h1 {
+    display: inline-block;
+}
+
+.testata {
+    background-color: white;
+    height: 100px;
+}
