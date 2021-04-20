@@ -29,19 +29,33 @@ h1 {
     
 }
 
+.radius10px {
+    border-radius: 10px;
+}
+
 .bottoni {
     background-color: white;
+    margin: 50px 250px 5px;
+    box-sizing: content-box;
+    padding: 15px 10px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #bottoneblu {
     background-color: rgb(0, 204, 255);
     color: white;
+    margin-left: 30px;
+    height: 30px;
+    
 
 }
 
 #bottonebianco {
     background-color: white;
+    height: 30px;
     color: rgb(180, 180, 180);
     border: 1px solid rgb(180, 180, 180);
+    
 
 }
