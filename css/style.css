@@ -1,17 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgba(197, 195, 195, 0.664);
 }
 
-.imglogo {
+#imglogo {
     display: inline-block;
+    height: 70px;
+    width: 70px;
+    vertical-align: middle;
     
 }
 
 h1 {
     display: inline-block;
+    line-height: 75px;
+    font-size: 70px;
+    vertical-align: middle;
+    margin: 0;
 }
 
 .testata {
     background-color: white;
-    height: 100px;
+    margin: 0 auto;
+    padding: 10px 30px ;
+    
+    
+   
 }
