@@ -15,7 +15,27 @@ body {
 }
 
 .midallign {
-    text-align: middle;
+    vertical-align: middle;
+}
+
+.blue {
+    background-color:#00ccff;
+}
+
+.scrittabianca { 
+    color: white;
+}
+
+.viola { 
+    background-color: violet;
+}
+
+.verde {
+    background-color: green;
+}
+
+.arancio {
+    background-color: orange;
 }
 /* fine regole comuni */
 
@@ -71,9 +91,9 @@ h1 {
     
 
 }
-
+ /* inizio lista */
 .containerlista {
-    line-height: 1.6;
+    line-height: 40px;
     background-color: white;
     margin: 0px 250px;
 }
@@ -84,3 +104,4 @@ ul {
 li::before {
     content: "\2023" ;
 }
+
