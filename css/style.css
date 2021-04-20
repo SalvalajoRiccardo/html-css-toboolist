@@ -1,11 +1,17 @@
 * {
     box-sizing: border-box;
 }
-
+/* inizio regole comuni */
 body {
     background-color: rgba(197, 195, 195, 0.664);
 }
 
+.radius10px {
+    border-radius: 10px;
+}
+/* fine regole comuni */
+
+/* inizio header */
 #imglogo {
     display: inline-block;
     height: 70px;
@@ -13,6 +19,7 @@ body {
     vertical-align: middle;
     
 }
+/* fine header */
 
 h1 {
     display: inline-block;
@@ -29,10 +36,7 @@ h1 {
     
 }
 
-.radius10px {
-    border-radius: 10px;
-}
-
+/* inizio main */
 .bottoni {
     background-color: white;
     margin: 50px 250px 5px;
@@ -58,4 +62,9 @@ h1 {
     border: 1px solid rgb(180, 180, 180);
     
 
+}
+
+.containerlista {
+    line-height: 1.6;
+    background-color: white;
 }
