@@ -10,20 +10,21 @@ body {
     border-radius: 10px;
 }
 
-.span {
-    display: block;
-}
+
 
 .midallign {
     vertical-align: middle;
 }
 
+/* colori */
 .blue {
     background-color:#00ccff;
 }
 
 .scrittabianca { 
     color: white;
+    font-size: 10px;
+    padding: 5px;
 }
 
 .viola { 
@@ -36,6 +37,15 @@ body {
 
 .arancio {
     background-color: orange;
+}
+
+.rosa {
+
+    background-color: pink;
+}
+
+.verdec { 
+    background-color: rgb(85, 235, 16);
 }
 /* fine regole comuni */
 
@@ -96,6 +106,11 @@ h1 {
     line-height: 40px;
     background-color: white;
     margin: 0px 250px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 ul {
@@ -105,3 +120,31 @@ li::before {
     content: "\2023" ;
 }
 
+.span1 {
+    display: block;
+
+}
+ 
+
+.span2 {
+    display: block;
+}
+
+.span1::before {
+    content: "\2713";
+    color: green;
+    border: 1px solid green ;
+    border-radius: 50%;
+    
+}
+.span2::before {
+    content: "\2715";
+    color: red;
+    border: 1px solid red ;
+    border-radius: 50%;
+   
+}
+
+strong {
+    font-size: 30px;
+}
